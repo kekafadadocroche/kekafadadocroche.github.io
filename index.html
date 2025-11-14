@@ -3,157 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keka Fada do Crochê - Peças Artesanais</title>
+    <title>Keka Fada do Crochê – Arte Fofa em Crochê</title>
 
     <!-- TAILWIND CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
         body {
-            background-color: #faf7f2;
+            background-color: #fff4f9;
+        }
+
+        /* Botão flutuante do WhatsApp */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 25px;
+            right: 25px;
+            background-color: #ff69b4;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 32px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+            z-index: 999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .whatsapp-float:hover {
+            background-color: #ff1493;
         }
     </style>
 </head>
 
-<body class="text-gray-700">
+<body class="text-pink-900">
+
+    <!-- BOTÃO WHATSAPP -->
+    <a href="https://wa.me/5599999999999" target="_blank" class="whatsapp-float">
+        💬
+    </a>
 
     <!-- NAVBAR -->
-    <nav class="w-full py-4 bg-white shadow">
+    <nav class="w-full py-4 bg-white shadow-md">
         <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
-            <h1 class="text-xl font-bold text-amber-700">Keka Fada do Crochê</h1>
+            <h1 class="text-2xl font-bold text-pink-600">Keka Fada do Crochê</h1>
             <a href="https://www.instagram.com/kekafadadocroche" target="_blank"
-               class="px-4 py-2 bg-amber-700 text-white rounded-lg shadow hover:bg-amber-800 transition">
+               class="px-4 py-2 bg-pink-500 text-white rounded-lg shadow hover:bg-pink-600 transition">
                 Instagram
             </a>
         </div>
     </nav>
 
     <!-- HERO -->
-    <section class="w-full py-20 bg-amber-50">
+    <section class="w-full py-20 bg-pink-100">
         <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
-            
+
             <div class="flex-1">
-                <h2 class="text-4xl md:text-5xl font-bold text-amber-800 leading-tight">
-                    Crochê Artesanal Feito com Amor 💛
+                <h2 class="text-4xl md:text-5xl font-bold text-pink-700 leading-tight">
+                    Crochê Fofinho <br> feito com muito amor 💗🧵
                 </h2>
-                <p class="mt-4 text-lg text-amber-900">
-                    Peças únicas, delicadas e feitas à mão. Descubra uma coleção que combina carinho,
-                    estilo e autenticidade.
+                <p class="mt-4 text-lg text-pink-800">
+                    Amigurumis, bolsas, acessórios e peças delicadas criadas com carinho.
                 </p>
 
                 <a href="https://www.instagram.com/kekafadadocroche" target="_blank"
-                   class="inline-block mt-6 px-8 py-3 bg-amber-700 text-white rounded-lg text-lg shadow hover:bg-amber-800 transition">
+                   class="inline-block mt-6 px-8 py-3 bg-pink-500 text-white rounded-lg text-lg shadow hover:bg-pink-600 transition">
                     Ver Coleção
                 </a>
             </div>
 
             <div class="flex-1">
-                <img src="https://via.placeholder.com/550x450?text=Croch%C3%AA+Artesanal"
-                     alt="Crochê artesanal" class="rounded-xl shadow-lg">
+                <img src="https://via.placeholder.com/550x450?text=Keka+Fada+do+Croch%C3%AA"
+                     class="rounded-xl shadow-lg border-4 border-pink-300" alt="Crochê artesanal">
             </div>
 
         </div>
     </section>
 
     <!-- SOBRE -->
-    <section class="max-w-5xl mx-auto px-6 py-16">
-        <h3 class="text-3xl font-bold text-center text-amber-800">Sobre a Marca</h3>
+    <section class="max-w-5xl mx-auto px-6 py-16 text-center">
+        <h3 class="text-3xl font-bold text-pink-700">Sobre a Keka</h3>
 
-        <p class="mt-6 text-lg text-center max-w-3xl mx-auto text-gray-600">
-            Cada peça da Keka Fada do Crochê é feita à mão com atenção aos detalhes e muito amor.
-            Trabalhamos com materiais de alta qualidade, produzindo peças exclusivas,
-            cheias de charme e personalidade.
+        <p class="mt-6 text-lg max-w-3xl mx-auto text-pink-700">
+            Cada ponto feito à mão com dedicação. Peças fofas, delicadas e perfeitas para presentear
+            ou colecionar. Aqui tudo é artesanal, exclusivo e feito com muito amor.
         </p>
     </section>
 
     <!-- PRODUTOS -->
     <section class="bg-white py-20">
-        <h3 class="text-3xl font-bold text-center text-amber-800">Destaques da Loja</h3>
+        <h3 class="text-3xl font-bold text-center text-pink-700">Peças em Destaque</h3>
 
         <div class="mt-12 max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-6">
 
             <!-- CARD 1 -->
-            <div class="bg-amber-50 p-5 rounded-xl shadow hover:shadow-lg transition">
-                <img src="https://via.placeholder.com/300x300?text=Bolsa+de+Croch%C3%AA"
-                     class="rounded-lg w-full" alt="produto">
-                <h4 class="mt-4 text-xl font-semibold text-amber-900">Bolsa de Crochê</h4>
-                <p class="text-gray-600 mt-2">Peça exclusiva, feita à mão. Linda e resistente.</p>
-                <a href="https://www.instagram.com/kekafadadocroche" target="_blank"
-                   class="inline-block mt-4 px-4 py-2 bg-amber-700 text-white rounded-lg hover:bg-amber-800 transition">
-                    Ver no Instagram
-                </a>
+            <div class="bg-pink-100 p-5 rounded-xl shadow hover:shadow-xl transition">
+                <img src="https://via.placeholder.com/300x300?text=Amigurumi"
+                     class="rounded-lg w-full border-2 border-pink-300" alt="produto">
+                <h4 class="mt-4 text-xl font-semibold text-pink-700">Amigurumis</h4>
+                <p class="text-pink-600 mt-2">Fofinhos e personalizados.</p>
             </div>
 
             <!-- CARD 2 -->
-            <div class="bg-amber-50 p-5 rounded-xl shadow hover:shadow-lg transition">
-                <img src="https://via.placeholder.com/300x300?text=Amigurumi"
-                     class="rounded-lg w-full" alt="produto">
-                <h4 class="mt-4 text-xl font-semibold text-amber-900">Amigurumi</h4>
-                <p class="text-gray-600 mt-2">Bonequinhos cheios de charme e personalidade.</p>
-                <a href="https://www.instagram.com/kekafadadocroche" target="_blank"
-                   class="inline-block mt-4 px-4 py-2 bg-amber-700 text-white rounded-lg hover:bg-amber-800 transition">
-                    Ver no Instagram
-                </a>
+            <div class="bg-pink-100 p-5 rounded-xl shadow hover:shadow-xl transition">
+                <img src="https://via.placeholder.com/300x300?text=Bolsa+Rosa"
+                     class="rounded-lg w-full border-2 border-pink-300" alt="produto">
+                <h4 class="mt-4 text-xl font-semibold text-pink-700">Bolsas de Crochê</h4>
+                <p class="text-pink-600 mt-2">Charmosas e estilosas.</p>
             </div>
 
             <!-- CARD 3 -->
-            <div class="bg-amber-50 p-5 rounded-xl shadow hover:shadow-lg transition">
+            <div class="bg-pink-100 p-5 rounded-xl shadow hover:shadow-xl transition">
                 <img src="https://via.placeholder.com/300x300?text=Kit+de+Mesa"
-                     class="rounded-lg w-full" alt="produto">
-                <h4 class="mt-4 text-xl font-semibold text-amber-900">Kit de Mesa</h4>
-                <p class="text-gray-600 mt-2">Conjunto elegante para transformar sua mesa.</p>
-                <a href="https://www.instagram.com/kekafadadocroche" target="_blank"
-                   class="inline-block mt-4 px-4 py-2 bg-amber-700 text-white rounded-lg hover:bg-amber-800 transition">
-                    Ver no Instagram
-                </a>
+                     class="rounded-lg w-full border-2 border-pink-300" alt="produto">
+                <h4 class="mt-4 text-xl font-semibold text-pink-700">Kits de Mesa</h4>
+                <p class="text-pink-600 mt-2">Deixe sua casa mais fofa.</p>
             </div>
 
         </div>
     </section>
 
-    <!-- BENEFICIOS -->
-    <section class="max-w-6xl mx-auto px-6 py-20">
-        <h3 class="text-3xl font-bold text-center text-amber-800">Por que escolher nossas peças?</h3>
+    <!-- GALERIA DO INSTAGRAM -->
+    <section class="py-20 bg-pink-50">
+        <h3 class="text-3xl font-bold text-center text-pink-700">Últimos Posts do Instagram</h3>
+        <p class="text-center text-pink-600 mt-2">Atualiza automaticamente 💗</p>
 
-        <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="max-w-5xl mx-auto px-6 mt-10">
 
-            <div class="p-6 bg-white rounded-xl shadow">
-                <h4 class="font-semibold text-lg text-amber-800">100% Artesanal</h4>
-                <p class="text-gray-600 mt-2">Cada peça é única e feita à mão.</p>
-            </div>
+            <!-- MÉTODO FÁCIL (LightWidget ou SnapWidget) -->
+            <!-- Substitua pelo seu widget gerado em: https://lightwidget.com/ -->
+            
+            <!--<iframe 
+                src="https://cdn.lightwidget.com/widgets/xxxxxxxxxxxx.html"
+                scrolling="no"
+                allowtransparency="true"
+                class="w-full h-[600px] border-0 overflow-hidden rounded-xl shadow"
+            ></iframe>-->
 
-            <div class="p-6 bg-white rounded-xl shadow">
-                <h4 class="font-semibold text-lg text-amber-800">Exclusividade</h4>
-                <p class="text-gray-600 mt-2">Peças únicas, feitas sob medida.</p>
-            </div>
-
-            <div class="p-6 bg-white rounded-xl shadow">
-                <h4 class="font-semibold text-lg text-amber-800">Alta Qualidade</h4>
-                <p class="text-gray-600 mt-2">Fios resistentes e acabamento impecável.</p>
-            </div>
-
-            <div class="p-6 bg-white rounded-xl shadow">
-                <h4 class="font-semibold text-lg text-amber-800">Enviamos para todo o Brasil</h4>
-                <p class="text-gray-600 mt-2">Rápido, seguro e com rastreamento.</p>
-            </div>
+            <!-- MÉTODO API OFICIAL (opcional) -->
+            <!-- Caso queira usar API oficial do Meta: posso gerar o script completo -->
 
         </div>
     </section>
 
     <!-- CTA FINAL -->
-    <section class="bg-amber-100 py-20 text-center">
-        <h3 class="text-3xl font-bold text-amber-800">Garanta Sua Peça Exclusiva</h3>
-        <p class="mt-4 text-gray-700 text-lg">Só peças únicas — não deixe para depois!</p>
+    <section class="bg-pink-200 py-20 text-center">
+        <h3 class="text-3xl font-bold text-pink-800">Garanta sua peça fofa 💗</h3>
+        <p class="mt-4 text-pink-700 text-lg">Peças exclusivas e feitas à mão.</p>
 
         <a href="https://www.instagram.com/kekafadadocroche" target="_blank"
-           class="inline-block mt-6 px-8 py-3 bg-amber-700 text-white rounded-lg text-lg shadow hover:bg-amber-800 transition">
+           class="inline-block mt-6 px-8 py-3 bg-pink-600 text-white rounded-lg text-lg shadow hover:bg-pink-700 transition">
             Comprar Agora
         </a>
     </section>
 
     <!-- RODAPÉ -->
-    <footer class="bg-amber-800 text-white text-center py-6">
-        © 2025 Keka Fada do Crochê — Todos os direitos reservados
+    <footer class="bg-pink-700 text-white text-center py-6">
+        © 2025 Keka Fada do Crochê — Todo feito com amor 💗
     </footer>
 
 </body>
